@@ -1,0 +1,38 @@
+﻿# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Python virtual environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local databases and generated data
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and generated reports
+logs/
+data/telegram_reports/
+latest_report_page_*.png
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local backups and generated reports
+_backup_*/
+output/
+logs/
+
+# Local generated data
+data/
+
+# Browser sessions and credentials
+browser_profile/

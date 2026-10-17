@@ -1,0 +1,357 @@
+{
+  "sectors": [
+    "BANKING",
+    "NBFC",
+    "IT",
+    "PHARMA",
+    "HEALTHCARE",
+    "AUTO",
+    "FMCG",
+    "RETAIL",
+    "METALS",
+    "OIL_UPSTREAM",
+    "OMC",
+    "AVIATION",
+    "PAINTS",
+    "CHEMICALS",
+    "REALTY",
+    "UTILITIES",
+    "CAPITAL_GOODS",
+    "TELECOM",
+    "LOGISTICS",
+    "CONSUMER_DURABLES",
+    "GLOBAL_INDICES",
+    "WORLD_MARKET_TRENDS"
+  ],
+  "factor_exposures": {
+    "BANKING": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 1,
+      "usd_inr": 0.5,
+      "brent": 0.5,
+      "rbi_rate_surprise": 1,
+      "cpi_surprise": 0.7
+    },
+    "NBFC": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 1,
+      "usd_inr": 0.5,
+      "brent": 0.5,
+      "rbi_rate_surprise": 1,
+      "cpi_surprise": 0.7
+    },
+    "IT": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.7,
+      "usd_inr": -1,
+      "brent": 0.1,
+      "nasdaq": 1
+    },
+    "PHARMA": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.7,
+      "usd_inr": -1,
+      "brent": 0.1,
+      "nasdaq": 0.2
+    },
+    "HEALTHCARE": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.6,
+      "usd_inr": 0.5,
+      "brent": 0.5
+    },
+    "AUTO": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.6,
+      "usd_inr": 0.8,
+      "brent": 1,
+      "pmi_surprise": 0.8
+    },
+    "FMCG": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.6,
+      "usd_inr": 0.5,
+      "brent": 0.5,
+      "pmi_surprise": 0.8
+    },
+    "RETAIL": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 1,
+      "usd_inr": 0.5,
+      "brent": 0.5,
+      "rbi_rate_surprise": 1,
+      "cpi_surprise": 0.7,
+      "pmi_surprise": 0.8
+    },
+    "METALS": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.6,
+      "usd_inr": 0.5,
+      "brent": 0.5,
+      "asia_index": 1,
+      "pmi_surprise": 0.7
+    },
+    "OIL_UPSTREAM": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.6,
+      "usd_inr": -0.3,
+      "brent": -1
+    },
+    "OMC": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.6,
+      "usd_inr": 0.5,
+      "brent": 0.5
+    },
+    "AVIATION": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.6,
+      "usd_inr": 0.8,
+      "brent": 1
+    },
+    "PAINTS": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.6,
+      "usd_inr": 0.8,
+      "brent": 1
+    },
+    "CHEMICALS": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.6,
+      "usd_inr": 0.8,
+      "brent": 1
+    },
+    "REALTY": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 1,
+      "usd_inr": 0.5,
+      "brent": 0.5,
+      "rbi_rate_surprise": 1,
+      "cpi_surprise": 0.7
+    },
+    "UTILITIES": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.6,
+      "usd_inr": 0.5,
+      "brent": 0.5
+    },
+    "CAPITAL_GOODS": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.6,
+      "usd_inr": 0.5,
+      "brent": 0.5,
+      "pmi_surprise": 0.8
+    },
+    "TELECOM": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.6,
+      "usd_inr": 0.5,
+      "brent": 0.5
+    },
+    "LOGISTICS": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 0.6,
+      "usd_inr": 0.8,
+      "brent": 1
+    },
+    "CONSUMER_DURABLES": {
+      "sp500": 0.5,
+      "fii_cash": 0.7,
+      "nifty": 1,
+      "india_vix": 0.5,
+      "us10y": 1,
+      "usd_inr": 0.5,
+      "brent": 0.5,
+      "rbi_rate_surprise": 1,
+      "cpi_surprise": 0.7
+    },
+    "GLOBAL_INDICES": {
+      "sp500": 1.0,
+      "nasdaq": 0.8,
+      "asia_index": 0.8,
+      "us10y": 0.25
+    },
+    "WORLD_MARKET_TRENDS": {
+      "sp500": 0.8,
+      "nasdaq": 0.6,
+      "asia_index": 1.0,
+      "us10y": 0.25
+    }
+  },
+  "events": {
+    "CRUDE_UP": {
+      "AVIATION": -1,
+      "PAINTS": -0.8,
+      "CHEMICALS": -0.6,
+      "AUTO": -0.4,
+      "OMC": -0.5,
+      "OIL_UPSTREAM": 0.8,
+      "RETAIL": -0.2,
+      "FMCG": -0.3,
+      "LOGISTICS": -0.6
+    },
+    "CRUDE_DOWN": {
+      "AVIATION": 0.9,
+      "PAINTS": 0.7,
+      "CHEMICALS": 0.5,
+      "AUTO": 0.3,
+      "OMC": 0.4,
+      "OIL_UPSTREAM": -0.7,
+      "RETAIL": 0.2,
+      "FMCG": 0.3,
+      "LOGISTICS": 0.6
+    },
+    "YIELDS_UP": {
+      "BANKING": -0.5,
+      "NBFC": -0.7,
+      "REALTY": -0.9,
+      "IT": -0.5,
+      "RETAIL": -0.4
+    },
+    "YIELDS_DOWN": {
+      "BANKING": 0.4,
+      "NBFC": 0.6,
+      "REALTY": 0.8,
+      "IT": 0.5,
+      "RETAIL": 0.4
+    },
+    "INR_WEAK": {
+      "IT": 0.6,
+      "PHARMA": 0.5,
+      "AVIATION": -0.7,
+      "OMC": -0.5,
+      "AUTO": -0.3
+    },
+    "INR_STRONG": {
+      "IT": -0.4,
+      "PHARMA": -0.3,
+      "AVIATION": 0.5,
+      "OMC": 0.4
+    },
+    "US_TECH_UP": {
+      "IT": 0.5
+    },
+    "CHINA_STIMULUS": {
+      "METALS": 0.8,
+      "CHEMICALS": 0.3,
+      "CAPITAL_GOODS": 0.2
+    },
+    "RECESSION_RISK": {
+      "IT": -0.7,
+      "METALS": -0.7,
+      "AUTO": -0.5,
+      "PHARMA": 0.2,
+      "HEALTHCARE": 0.2,
+      "FMCG": 0.1
+    },
+    "GEOPOLITICAL_RISK": {
+      "BANKING": -0.5,
+      "NBFC": -0.5,
+      "IT": -0.5,
+      "PHARMA": -0.5,
+      "HEALTHCARE": -0.5,
+      "AUTO": -0.5,
+      "FMCG": -0.5,
+      "RETAIL": -0.5,
+      "METALS": -0.5,
+      "OIL_UPSTREAM": -0.5,
+      "OMC": -0.5,
+      "AVIATION": -0.5,
+      "PAINTS": -0.5,
+      "CHEMICALS": -0.5,
+      "REALTY": -0.5,
+      "UTILITIES": -0.5,
+      "CAPITAL_GOODS": -0.5,
+      "TELECOM": -0.5,
+      "LOGISTICS": -0.5,
+      "CONSUMER_DURABLES": -0.5
+    },
+    "INDIA_GROWTH": {
+      "BANKING": 0.6,
+      "RETAIL": 0.7,
+      "AUTO": 0.6,
+      "CAPITAL_GOODS": 0.8,
+      "REALTY": 0.5,
+      "LOGISTICS": 0.6
+    },
+    "RBI_EASING": {
+      "BANKING": 0.4,
+      "NBFC": 0.6,
+      "REALTY": 0.7,
+      "RETAIL": 0.4,
+      "AUTO": 0.5
+    },
+    "RBI_TIGHTENING": {
+      "BANKING": -0.4,
+      "NBFC": -0.6,
+      "REALTY": -0.7,
+      "RETAIL": -0.4,
+      "AUTO": -0.5
+    },
+    "PHARMA_REGULATION": {},
+    "TRADE_RESTRICTIONS": {
+      "IT": -0.4,
+      "PHARMA": -0.4,
+      "METALS": -0.4,
+      "AUTO": -0.4
+    },
+    "OTHER": {}
+  }
+}
