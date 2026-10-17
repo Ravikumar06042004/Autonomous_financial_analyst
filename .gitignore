@@ -36,3 +36,8 @@ data/
 
 # Browser sessions and credentials
 browser_profile/
+
+# Temporary backup files
+*.bak
+*.bak_*
+*.before_*
